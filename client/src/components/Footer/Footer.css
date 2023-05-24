@@ -1,0 +1,9 @@
+/* Styling for footer */
+#footer {
+   background-image:  linear-gradient(#777, #444);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 4rem;
+}

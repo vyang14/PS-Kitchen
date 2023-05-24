@@ -1,0 +1,95 @@
+/* Global styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#root {
+  background-color: rgb(136, 148, 142);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+/* Container for forms */
+.form-container {
+  margin: 1.5rem;
+  padding-bottom: 1rem;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: radial-gradient(rgb(112, 174, 218),rgb(87, 72, 218));
+}
+.form-container p {
+  font-size: 1.2rem;
+  margin: 1.3rem;
+}
+.form {
+  margin: 1rem;
+}
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.form-container h1 {
+    text-align: center;
+}
+.form-section {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 15rem;
+  
+}
+.form-section h2 {
+    text-align: center;
+}
+.form-section input {
+    margin: .3rem;
+}
+.form-section textarea {
+    min-height: 15rem;
+}
+/* Styling for submit buttons on forms */
+.btn-submit {
+  background: #ed5951;
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, 'Apple Color Emoji', 'Segoe UI Emoji',
+    NotoColorEmoji, 'Noto Color Emoji', 'Segoe UI Symbol', 'Android Emoji',
+    EmojiSymbols, -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue',
+    'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.btn-submit:hover {
+  scale: 1.1;
+  transition: 0.1s;
+}
+
+@media (max-width: 720px) {
+  .form-container {
+    margin: 1rem;
+  }
+  .btn-submit {
+    margin: 0 1rem ;
+  }
+}
